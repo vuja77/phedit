@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>photo editor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+</head>
+<body>
+
+<div>
+
+	<div class="container">
+		<div class="filteri" >
+			<div class="filter-options">
+				<h2>Filters</h2>
+				<button class="" id="br">brightnes</button>
+				<button id="ca" class="active">contrast</button>
+				<br>
+				<button id="sat" class="">saturation</button>
+				<button id="gray" class="">Invert</button>
+				<button id="hue-rotate" class="">Hue</button>
+				<button id="blur" class="">Blur</button>
+			</div>
+			
+			<br>
+			<h2 id="flNm">Contrast</h2>
+			<input id="range"type="range" name="" min="0" max="200">
+			<br>
+			<br>
+			<h2>Rotate/Flip</h2>
+			<button id="left"class="rt-fl"><i class="fas fa-rotate-left"></i></button>
+			<button id="right"class="rt-fl"><i class="fas fa-rotate-right"></i></button>
+			<button id="flip-h"class="rt-fl"><img width="15x" src="https://cdn-icons-png.flaticon.com/512/1827/1827961.png"></button>
+			<button id="flip-v"class="rt-fl"><img id="fr" width="15x" src="https://cdn-icons-png.flaticon.com/512/1827/1827952.png"></button>
+		</div>
+		
+		
+		
+
+		<div class="slika">
+		
+			<img src="https://media.istockphoto.com/id/1357365823/vector/default-image-icon-vector-missing-picture-page-for-website-design-or-mobile-app-no-photo.jpg?s=612x612&w=0&k=20&c=PM_optEhHBTZkuJQLlCjLz-v3zzxp-1mpNQZsdjrbns=" >
+		</div>
+		<div class="ph-import">
+			<button id="rs-filters">reset filters</button>
+			<input id="fl-inp" type="file" name="" hidden>
+
+			<button id="chose-ph">chose image</button>
+			<button id="save">save image</button>
+			
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
